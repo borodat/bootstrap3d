@@ -1,0 +1,194 @@
+@import "bourbon";
+
+/*==========  Desktop First Method  ========== */
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /* */
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /* */
+  section,
+  .advantages,
+  .sec_3 .jumbotron,
+  .sec_2,
+  .sec_4 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .sec_2 {
+    p {
+      margin-bottom: 20px;
+    }
+  }
+  .sec_3 {
+    padding: 0;
+    .jumbotron {
+      p {
+        margin-bottom: 0;
+      }
+    }
+    .circle {
+      margin: 0 auto 20px;
+      float: none;
+    }
+    .cite-wrap {
+      margin: 0 auto;
+      float: none;
+      text-align: center
+    }
+    .form-wrap {
+      input,
+      button {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        margin: 0;
+      }
+      button {
+        margin-top: 20px;
+      }
+    }
+  }
+  .sec_4 {
+    .circle-img {
+      width: 35%;
+      padding-top: 35%;
+      margin: 0 auto;
+    }
+    .sec-4-item {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    form {
+      padding: 10px;
+      input,
+      button,
+      textarea {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+      }
+    }
+  }
+  .circle {
+    width: 50px;
+    height: 50px;
+    svg {
+      height: 50px;
+      width: 22px;
+    }
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /*Disable Animation on Mobile Devices */
+  .animated {
+    /*CSS transitions */
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms */
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations */
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .nav--main {
+    ul {
+      float: none;
+      text-align: center;
+    }
+  }
+  .logo {
+    text-align: center;
+  }
+  .jumbotron {
+    .form-wrap {
+      margin-left: 0;
+    }
+    h2 {
+      margin-top: 25px
+    }
+  }
+  .advantages {
+    .circle{
+      margin: 0 auto;
+    }
+    h2 {
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+  .sec_4 {
+    h2 {
+      margin-top: 20px;
+    }
+  }
+  footer {
+    .social {
+      ul {
+        text-align: center;
+      }
+    }
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /* */
+  .nav--main {
+    a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /* */
+}
+
+/*==========  Mobile First Method  ========== */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /* */
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /* */
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /* */
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /* */
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /* */
+}
