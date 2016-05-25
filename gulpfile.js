@@ -33,11 +33,10 @@ gulp.task('scripts', function() {
 	return gulp.src([
 		'./app/libs/modernizr/modernizr.js',
 		'./app/libs/jquery/jquery-1.11.2.min.js',
-		'./app/libs/waypoints/waypoints.min.js',
-		'./app/libs/animatewithsass/animate-css.js',
-		//'./app/libs/plugins-scroll/plugins-scroll.js',
+		'./app/libs/waypoints/jquery.waypoints.min.js',
 		'./app/libs/jquery-smooth-scroll/jquery.smooth-scroll.min.js',
 		'./app/libs/owl-carousel/owl.carousel.min.js',
+		'./app/libs/animatewithsass/animate-css.js',
 		])
 		.pipe(concat('libs.js'))
 		.pipe(uglify()) //Minify libs.js

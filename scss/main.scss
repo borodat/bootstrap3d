@@ -52,7 +52,7 @@ a {
 
 h3 {
   color: $main-color;
-  font-weight: 200;
+  // font-weight: 200;
   letter-spacing: 0.033em;
   margin-bottom: 0;
 }
@@ -208,6 +208,9 @@ input:focus, textarea:focus {
   }
   .button {
     background-color: $black;
+    &:hover {
+      background-color: lighten($black, 10%);
+    }
   }
  .row {
     margin: 0;

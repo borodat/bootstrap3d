@@ -76,15 +76,6 @@ a {
 .nav--main {
   ul {
     float: right;
-    // li {
-    //   &:last-child{
-    //     // margin-left: 8px;
-    //     a {
-    //       padding-right: 10px;
-    //       // padding-left: 10px;
-    //     }
-    //   }
-    // }
   }
   a {
     font-family: $fjalla;
@@ -122,6 +113,7 @@ a {
   background-position: 50% 20%;
   background-size: cover;
   position: relative;
+  min-height: 560px;
   &::after {
     content: '';
     width: 100%;
@@ -131,9 +123,6 @@ a {
     top: 0;
     left: 0;
     opacity: 0.40;
-  }
-  .col-sm-12 {
-      height: 560px;
   }
   .slider-content-wrap {
     position: absolute;
@@ -163,11 +152,15 @@ a {
   }
 }
 .slide--1 {
-  background-image: url("../img/slide1.jpg");
+  background-image: url("/bootstrap3d/img/slide1.jpg");
 }
 .slide--2 {
-  background-image: url("../img/slide2.jpg");
+  background-image: url("/bootstrap3d/img/slide2.jpg");
   background-position: 50% 35%;
+}
+
+.owl-carousel {
+  min-height: 560px;
 }
 
 .owl-carousel .owl-prev,
@@ -185,16 +178,16 @@ a {
 }
 
 .owl-carousel .owl-prev {
-  background-image: url("../img/owl-nav-left.svg");
+  background-image: url("/bootstrap3d/img/owl-nav-left.svg");
   &:hover {
-    background-image: url("../img/owl-nav-left-h.svg");
+    background-image: url("/bootstrap3d/img/owl-nav-left-h.svg");
   }
 }
 .owl-carousel .owl-next {
-  background-image: url("../img/owl-nav-right.svg");
+  background-image: url("/bootstrap3d/img/owl-nav-right.svg");
   margin-left: 1px;
   &:hover {
-    background-image: url("../img/owl-nav-right-h.svg")
+    background-image: url("/bootstrap3d/img/owl-nav-right-h.svg")
   }
 }
 
