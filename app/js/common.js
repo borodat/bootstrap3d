@@ -1,12 +1,5 @@
 $(function() {
 
-	//SVG Fallback
-	// if(!Modernizr.svg) {
-	// 	$("img[src*='svg']").attr("src", function() {
-	// 		return $(this).attr("src").replace(".svg", ".png");
-	// 	});
-	// };
-
 	//E-mail Ajax Send
 	//Documentation & Example: https://github.com/agragregra/uniMail
 	$("form").submit(function() { //Change
@@ -42,7 +35,7 @@ $(function() {
 
 	$(".owl-carousel").owlCarousel({
 		items: 1,
-		loop: true,
+		//loop: true,
 		nav: true,
 		navText: [],
 		navContainer: '.slider-contorls'
